@@ -1,0 +1,89 @@
+
+<html>
+<head>
+
+  <title>Data Article</title>
+  <style>
+    body {
+      font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+      margin: 0;
+      padding: 0;
+      line-height: 1.6;
+    }
+
+    .container {
+      max-width: 700px;
+      margin: 4rem auto;
+      padding: 0 1rem;
+    }
+
+
+  h1 {
+font-size: 2.5rem;
+      margin: 0.5rem 0;
+    }
+
+   h2 {
+      font-size: 0.9rem;
+      color: gray;
+    }
+
+    img {
+      width: 100%;
+      height: auto;
+      margin: 2rem 0;
+      border-radius: 12px;
+    }
+ </style>
+</head>
+
+
+<body>
+  <div class="container">
+      <h1>Losing your rent-stabilized apartment? You’re not alone.</h1>
+ <h3>Landlords are foreclosing on rent-stabilized apartments.</h3>
+      <h2>By Mariah Towles </h2>
+
+ <img src="image.jpg">
+
+
+<p>It was first suspected that landlords were pushing out their tenants under the guise of renovation and poor management. The number of complaints has risen since 2020, suggesting that landlords may intentionally be letting problems go resolved to discourage tenants from renting. </p>
+<p>However, a recent New York Post article argues this is not the case. For many owners, the investment in repairs is not worth the hassle since they are now unable to increase their property prices to market value. Some are even unable to afford them based on their property’s profit margins. There is no hope of profiting in the future - as many owners are choosing to foreclose their rental properties. </p>
+<p>There were over 138,076 complaints filed so far in 2025 (dated to April 11th), according to Housing Preservation Department (HPD) Data. A majority of these complaints are classified as an “emergency” complaint. The HPD defines an emergency complaint as “a condition that is an immediate danger to the tenant.” </p>
+  
+
+<div style="min-height:400px" id="datawrapper-vis-66r4f"><script type="text/javascript" defer src="https://datawrapper.dwcdn.net/66r4f/embed.js" charset="utf-8" data-target="#datawrapper-vis-66r4f"></script><noscript><img src="https://datawrapper.dwcdn.net/66r4f/full.png" alt="" /></noscript></div>
+
+<p> This is a  29.58% increase in comparison to the usual from Jan - Apr this year compared to the average of this time from 2020-2024. The most common complaint since 2020 has been hot water/heating, and this trend seems to be continuing for the year of 2025. </p>
+<p>  “Landlords get a bad rap, but I didn’t grow up with a silver spoon in my mouth,” said hesitantly by Louis Angeles, landlord of a Brooklyn Heights rent-stabilized apartment. He bought the property at the age of 22 in 1991 using a loan. He said the purchase made sense at that time, but would not today. “It’s the laws… I’m not happy about it,” he said. </p>
+<p>  10% of the 643,140 pre-1974 rent-stabilized apartments in New York City — an estimated 64,314 units – are losing money, according to the Rent Guidelines Board report. </p>
+<p>  Many are concerned about what this means for the future of rent-stabilized apartments. Carson Kochis, the 24-year-old rent-stabilized tenant, included. </p>
+<p>  “I can’t stay in New York, but I’m just a transplant… I can go home. Home isn’t here. That’s the difference,” she said, referencing those relying on affordable housing. </p>
+<p> After several attempts to contact the housing preservation department, they responded, declining to comment. </p>
+<p>In November of 2024, the Supreme Court decided not to hear a call to dismantle rent stabilization laws in New York City. </p>
+
+<hr>
+
+ <h1> Methodology:</h1>
+ <a href="url">Here is my Github.</a>
+<h4> Rent Stabilized Apartment Lists: </h4>
+<p> 1. converted lists of rent stabilized apartments to CSV files using adobe acrobat and imported them into respective sheets </p>
+<p> 2. duplicate these two sheet</p>
+<p> 3. pasted the information in 'manhattan' where 'brooklyn' empty rows began</p>
+<p> 4. sorted the sheet from z-a and removed excess headings (from each page of pdf) </p>
+<p> 5. unmerged status3 and block # cells if necessary (manually) </p>
+<p> 6. make new sheet called 'block and lot', all rows receive a "yes" for rent stabilized status using CMD + return </p>
+<h4> For Complaints Data: </h4>
+<p> Filtered for - 	“Borough” is one of “Manhattan, Brooklyn”</p>
+<p> “Received Date” is greater than or equal to “2020 Jan 01 12:00:00”</p>
+
+<h4>Download the filtered data.</h4>
+<p> Merged both datasets to show only one with the corresponding District Codes. </p>
+<p> Analyzed the data by grouping in Python. </p>
+<h4> (Full Methodology is in Notebook and Excel) </h4>
+
+
+
+  </div>
+</body>
+</html>
